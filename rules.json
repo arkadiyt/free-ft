@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "priority": 100,
+    "action": {
+      "type": "modifyHeaders",
+      "requestHeaders": [
+        {
+          "header": "Referer",
+          "operation": "set",
+          "value": "https://twitter.com"
+        },
+        {
+          "header": "Cookie",
+          "operation": "set",
+          "value": "FTCookieConsentGDPR=true"
+        }
+      ],
+      "responseHeaders": [
+        {
+          "header": "Set-Cookie",
+          "operation": "remove"
+        }
+      ]
+    },
+    "condition": {
+      "resourceTypes": ["main_frame"]
+    }
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "name": "__MSG_appName__",
+  "version": "1.0.0",
+  "description": "__MSG_appDesc__",
+  "default_locale": "en",
+  "icons": {
+    "48": "img/icon-48x48.jpg",
+    "128": "img/icon-128x128.jpg"
+  },
+  "permissions": [
+    "declarativeNetRequest"
+  ],
+  "host_permissions": [
+    "*://*.ft.com/*"
+  ],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "free-ft",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  },
+  "manifest_version": 3
+}

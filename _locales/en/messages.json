@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "Free FT",
+    "description": "The title of the application, displayed in the web store."
+  },
+  "appDesc": {
+    "message": "Free FT gives you free access to ft.com",
+    "description":"The description of the application, displayed in the web store."
+  }
+}
