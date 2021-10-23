@@ -4,7 +4,7 @@
     "description": "The title of the application, displayed in the web store."
   },
   "appDesc": {
-    "message": "Free FT gives you free access to ft.com",
-    "description":"The description of the application, displayed in the web store."
+    "message": "Free FT gives you free access to the Financial Times (ft.com)",
+    "description": "The description of the application, displayed in the web store."
   }
 }
