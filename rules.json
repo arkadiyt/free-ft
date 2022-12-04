@@ -19,7 +19,8 @@
       "responseHeaders": [
         {
           "header": "Set-Cookie",
-          "operation": "remove"
+          "operation": "set",
+          "value": "FTCookieConsentGDPR=true"
         }
       ]
     },
